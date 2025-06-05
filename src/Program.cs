@@ -24,9 +24,9 @@ namespace RMMS_CLI;
 
 public class Program {
     public static List<Exception> Errors { get; set; } = new();
-    public static int PageNo { get; set; } = 0; // Current Page
-    public static int CursorPageNo { get; set; } = 0; // Current SELECTED Page
-    public static int SelectedMod { get; set; } = 1; // Which mod is selected?
+    public static int PageNo { get; set; } = 0;
+    public static int CursorPageNo { get; set; } = 0;
+    public static int SelectedMod { get; set; } = 1;
     public static int SelectedModCategory { get; set; } = 0;
 
     public static HashSet<string> HighImpactIds { get; set; } = new();
